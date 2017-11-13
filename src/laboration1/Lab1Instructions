@@ -1,0 +1,16 @@
+Laboration 1
+
+You need only demonstrate from task 4B. However, you must be prepared to answer questions about all subtasks.
+
+All initializations of the windows must be made in the constructor of the new class.
+Jag är osäker på vad detta betyder? Alla komponenter i konstruktorn? 
+
+
+
+To demonstrate and explain
+
+Button component according to 4B in its own package.
+At least two objects of MyButton in a window.
+At least two objects of MyButton in an applet.
+UML class diagram with names of classes and interfaces only.
+Demonstrate how pressing the buttons change their states independently.

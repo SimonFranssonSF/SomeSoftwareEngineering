@@ -1,0 +1,1 @@
+En operation (ett metodanrop) på det sammansatta objektet ska medföra att operationen utförs på objektets alla delar. Samma anrop på ett lövobjekt påverkar endast lövet.

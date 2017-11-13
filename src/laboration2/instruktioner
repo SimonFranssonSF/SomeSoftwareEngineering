@@ -1,0 +1,20 @@
+/*Varje drag i spelet utförs genom att man väljer en ruta. Spelets ställning uppdateras då inuti klassen och kan avläsas position för position genom metoden getStatus(i,j).*/
+/*Anrop av getMessage() ger ett aktuellt meddelande som säger om draget gick bra eller ej.*/
+/*Spelklassen ska vara helt fri från grafik och utgör modelldelen i Model-ViewControl. Spelklassen kan användas tillsammans med en textbaserad ViewControl-del eller en grafisk.*/
+/*Om ni väljer ett tvåpersonersspel så måste modellen hålla reda på vems tur det är och meddela detta genom getMessage(). Vartannat lyckat drag tolkas som spelare1 och vartannat är spelare2.*/
+/*Spelmodellens uppgift är att tillhandahålla metoder som behövs för att man ska kunna spela spelet. Spelet spelas genom många anrop av metoderna.*/
+/* TicTacToe ska implementeras med en utplaceringsfas och en "flyttfas".*/
+/*Spelet ska alltså inte ta slut när 3 + 3 pjäser är utplacerade utan fortsätta genom att en användare i taget flyttar en pjäs.*/
+
+Femtonspelet
+	rymmer 4*4 brickor men har bara 15 st
+	Brickorna kan vara numrerade eller ha en bild
+	Alla brickor ska hamna på rätt plats 1,2,3,4  från övre vänstre hörn eller bygga en bild.
+	
+Spelaren väljer en ruta som ligger intill den tomma. Då flyttas den valda rutan till den tomma platsen.
+När Femtonspelet startar ska sifforna vara i slumpmässiga positioner.
+Kan ordnas genom att man placerar ut dem i ordning och sen gör slumpmässiga anrop av move(i,j).
+Om man slumpar placeringen direkt finns risk att spelet inte går att lösa.
+Det krävs inte att meddelande om att spelet är löst ges.
+Kom ihåg: Inga knappar, färger, fönster eller annan grafik i modellklassen.
+Studera testprogrammet och körningen av det noga!

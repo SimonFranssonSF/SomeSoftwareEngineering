@@ -1,0 +1,20 @@
+Ineffektiv sten sax påse:
+
+I labb3 (Sten, sax, påse) är det naturligt att använda en String-array 
+som innehåller dragen:
+
+String[] drag = {"STEN", "SAX", "PÅSE"};
+Om man behöver svara på frågan "Vilket index har draget d ?", där d är en String, 
+så kan man använda en metod som går igenom vektorn och jämför d med alla drag 
+tills man funnit det rätta. 
+   int index (String d, String[] drag) {
+       for (int i=0; i<drag.length; i++) {
+	   if (drag[i].equals(d))
+               return i;
+       }
+       return -1;  // draget d fanns ej med
+   }
+Metodanropet index("SAX", drag) bör ge svaret 1 och index("HOPP", drag) bör ge   -1.
+Hur kan man hantera detta effektivare ? Ledtråd: Använd någon subklass till Map.
+
+SVAR: : Använd någon subklass till Map.
